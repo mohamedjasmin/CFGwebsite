@@ -14,9 +14,19 @@
 		$(document).ready(function(){
 			$(".btn").click(function(){
 				$(".input, .text-area").val("");
+					document.querySelector('.bg-modal').style.display = 'flex';
+				});
 			});
-		});
 		</script>
+
+	<script>
+		$(document).ready(function(){
+			$(".close").click(function(){
+					document.querySelector('.bg-modal').style.display = 'none';
+				});
+			});
+		</script>
+
 </head>
 
 <body>
@@ -49,6 +59,7 @@
 	<div class="contact-us">
 		<div class="title">Contact Us</div>
 
+
 		<div class="input-fields">
 
 			<div class="items">
@@ -71,12 +82,23 @@
 				<textarea id="msg" class="text-area"></textarea>
 			</div>
 
-			<div class="btn">Send</div>
+			<div class="btn" id="btn">Send</div>
 
 </div>
 </div>
 </div>
 
+<!-- Modal Section --->
+<div class="bg-modal">
+	<div class="modal-content">
+		<div class="close">+</div>
+		<img src="img/thankyou.png" alt="thankyou" height="80" width="80">
+
+		<h2>Thank You!</h2>
+		<h5>Check your emails regularly, responses usually take between 3-5 working days!</h5>
+
+	</div>
+</div>
 
 <!--- SOCIAL LINKS
 
