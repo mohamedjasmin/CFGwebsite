@@ -1,0 +1,35 @@
+table {
+  margin-top: 10px;
+}
+
+
+#fat{
+  text-align: center;
+  border: 5px solid gray;
+    border-radius: 12px;
+    margin-bottom: 5px;
+}
+#carbs {
+    text-align: center;
+  border: 5px solid gray;
+    border-radius: 12px;
+}
+#fibre{
+    text-align: center;
+  border: 5px solid gray;
+    border-radius: 12px;
+}
+#protein {
+    text-align: center;
+  border: 5px solid gray;
+    border-radius: 12px;
+}
+#salt{
+    text-align: center;
+  border: 5px solid gray;
+    border-radius: 12px;
+}
+#ingredients {
+color: DarkSlateGray;
+
+}
